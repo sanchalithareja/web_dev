@@ -1,6 +1,8 @@
-#web development projects
+## web development projects
 This repository is an amalgamation of a couple web dev projects I have made 
-#Projects:
+
+## Projects:
+
 -**To-Do List**- 
 -**FAQs**- this is a bassic accordian project which is used in various websites, for FAQs, drop down information,etc.
          -Tech used: HTML, CSS, JS
