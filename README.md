@@ -1,12 +1,31 @@
-## web development projects
-This repository is an amalgamation of a couple web dev projects I have made 
+# Web Development Projects
 
-## Projects:
+Welcome to my repository showcasing a variety of web development projects I've created. Each project demonstrates different aspects of web development and utilizes various technologies.
 
--**To-Do List**- 
--**FAQs**- this is a bassic accordian project which is used in various websites, for FAQs, drop down information,etc.
-         -Tech used: HTML, CSS, JS
--**Random Quote Generator**- the webpage generates random quotes along with the people who said them, when the quote genrator button is clicked
-                           -Tech used: HTML,CSS,JS
--**Zomato clone**- this is a simple clone of the zomato website
-                 - Tech used- HTML, CSS
+## Projects
+
+### To-Do List
+A simple yet effective To-Do List application.
+
+### FAQs Accordion
+An accordion-style project commonly used for FAQs and other informational dropdowns.
+- **Technologies**: HTML, CSS, JavaScript
+
+### Random Quote Generator
+Generates random quotes along with their attributions when triggered.
+- **Technologies**: HTML, CSS, JavaScript
+
+### Zomato Clone
+A basic clone of the Zomato website.
+- **Technologies**: HTML, CSS
+
+---
+
+## Overview
+
+This repository serves as a showcase of my skills in web development, highlighting projects ranging from interactive JavaScript applications to responsive CSS designs. Each project folder contains its own README with detailed instructions and insights into the development process.
+
+Feel free to explore each project to see my progression and interests in web development!
+
+---
+
