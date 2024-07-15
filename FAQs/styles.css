@@ -1,0 +1,66 @@
+/* accordian styling*/
+
+body{
+    background: url(image.png) center/ cover;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.accordian{
+    width:35%;
+    background-color: white;
+    padding:  30px;
+    border-radius: 30px;
+}
+
+.accordian .accordian-title{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size:2rem;
+    font-weight:100;
+}
+
+.accordian .content .question{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+
+    position: relative;
+}
+
+.accordian .content .question::after{
+    content: '+';
+
+    position: absolute;
+    right: -1px;
+}
+
+.accordian .content .answer{
+    padding-top: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+
+.accordian .content.active .answer{
+ height:150px;
+
+}
+.accordian .content.active .question{
+    font-size:1.2rem;
+    transition:0.5s;
+}
+.accordian .content.active .question::after{
+    content:'-';
+    font-size: 30px;
+    transition:0.5s;
+}
